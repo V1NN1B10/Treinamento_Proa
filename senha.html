@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const senha = "Dragão"
+        const idade = 10
+
+        let senha_usuario = prompt("Insira a senha dos clube secreto: ")
+        let idade_usuario = prompt("Insira a sua idade: ")
+
+        if (idade_usuario >= 10 && senha_usuario === senha) {
+            alert("Acesso liberado")
+        } else if (idade >= 10 && senha_usuario !== senha) {
+            alert("Coloque uma senha valida")
+        } else if (idade <= 9 && senha_usuario === senha) {
+            alert("Idade permitida a partir de 10 anos")
+        } else {
+            alert("Coloque dados validos")
+        }
+    </script>
+</body>
+
+</html>

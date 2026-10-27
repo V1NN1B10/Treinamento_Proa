@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cartao{
+    width: 300px;
+    padding: 20px;
+    border: 2px solid white;
+    margin: 16px auto;
+    box-sizing: border-box;
+}
+/*
+1. 344px
+2. 300px
+3. O auto divide o espaço horizontal disponível igualmente
+   entre a esquerda e a direita, centralizando o cartão.
+*/
