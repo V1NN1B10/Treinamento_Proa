@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let por_semana = Number(prompt("Quanto por semana você deseja guardar "))
+        let cofre = 0;
+        let semana = 0;
+
+         while (cofre < 50){
+            semana ++;
+            cofre = cofre + por_semana;
+            alert("semana" + semana + ": R$ " + cofre);
+         }
+         alert("Meta batida em " + semana + "semanas!")
+    </script>
+</body>
+</html>

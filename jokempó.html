@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PEDRA, PAPEL E TESOURA</h1>
+
+    <script>
+        let jogador = prompt("Pedra, Papel ou Tesoura?")
+        let sorteio = Math.floor(Math.random() * 3) + 1;
+        let computer;
+
+        switch(sorteio){
+            case 1: computer = "pedra"; break;
+            case 2: computer = "papel"; break;
+            case 3: computer = "tesoura"; break;
+            default: alert("Digite um Valor Válido")
+        }
+        alert("O computador Jogou" + computer)
+
+    if(jogador === computador){
+        alert("Empate!")
+
+      } else if (jogador === 'pedra' && computador === 'tesoura'){
+        alert("Você venceu!")
+        
+      } else if(jogador === 'tesoura' && computador === 'papel'){
+        alert("Você venceu!")
+
+      } else if(jogador === 'papel' && computador === 'pedra'){
+        alert("Você venceu!")
+      
+      } else {
+        alert("Você perdeu!")
+      }
+    </script>
+    
+</body>
+</html>

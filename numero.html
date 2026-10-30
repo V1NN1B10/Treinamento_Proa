@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>numero</h1>
+    <script>
+    let secreto = 7;
+    let tentavas = 1;
+    let chute = Number(prompt("chute de 1 a 10: "))
+
+    while (chute !== secreto) {
+    tentavas ++;
+    chute = Number(prompt("errou tente novamente"));
+    }
+     alert("Aceitou!" + tentavas);
+    </script>
+</body>
+</html>

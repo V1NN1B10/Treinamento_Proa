@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Lançonete</h1>
+    <script>
+        let pedido = prompt(
+            "cardapio\n" +
+            "1- Hamburguer: R$ 15,00\n" +
+            "2-Pizza: R$ 20,00\n" +
+            "3-suco: R$ 8,00 \n" +
+            "digite um numero para um pedido")
+
+            switch(pedido){
+                case "1":
+                    alert("você escolheu um hamburguer: R$ 15,00")
+                    break
+                case "2":
+                    alert("você escolheu uma pizza: R$ 20,00")
+                    break
+                case "3":
+                    alert("você escolheu o suco: R$ 8,00")
+                    break
+                default:
+                    alert("Digite um item que esteja valido no cardapio.")
+            }
+    </script>
+</body>
+</html>
